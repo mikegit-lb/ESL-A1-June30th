@@ -3039,7 +3039,7 @@
       const { phases } = window.eslContent.courseContent;
       
       phases.forEach(phase => {
-        const container = document.getElementById(`${phase.id}-container`);
+        const container = document.getElementById(`course-${phase.id}-container`);
         if (!container) return;
         
         let html = `
